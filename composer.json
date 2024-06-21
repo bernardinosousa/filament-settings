@@ -13,9 +13,15 @@
         "php": "^8.0",
         "filament/filament": "^3.2",
         "laravel/framework": "^10.0|^11.0",
-        "outerweb/settings": "^1.0",
+        "outerweb/settings": "dev-main",
         "spatie/laravel-package-tools": "^1.16"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/bernardinosousa/settings.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Outerweb\\FilamentSettings\\": "src/"
