@@ -13,7 +13,7 @@
         "php": "^8.0",
         "filament/filament": "^3.2",
         "laravel/framework": "^10.0|^11.0",
-        "outerweb/settings": "dev-main",
+        "bernardinosousa/settings": "dev-main",
         "spatie/laravel-package-tools": "^1.16"
     },
     "repositories": [
